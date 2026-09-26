@@ -1,0 +1,6 @@
+interface:
+  display_name: "Jev Thread Search"
+  short_description: "Find past Codex threads with cached Jev ranking"
+  default_prompt: "Use $jev-thread-search to find the Codex thread I am looking for and show the top five matches."
+policy:
+  allow_implicit_invocation: true
