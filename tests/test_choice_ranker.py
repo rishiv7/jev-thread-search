@@ -5,7 +5,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "plugins" / "jev-thread-search" / "skills" / "jev-thread-search" / "scripts"))
 import choice_ranker
 from jev_ranker import RankError
 

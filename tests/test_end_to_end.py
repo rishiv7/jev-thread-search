@@ -4,7 +4,7 @@ import io,json
 from pathlib import Path
 import sys,tempfile,unittest
 from unittest.mock import patch
-sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'plugins'/'jev-thread-search'/'skills'/'jev-thread-search'/'scripts'))
 import thread_search as cli
 import jev_ranker
 

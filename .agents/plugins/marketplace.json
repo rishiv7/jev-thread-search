@@ -1,0 +1,20 @@
+{
+  "name": "jev-thread-search",
+  "interface": {
+    "displayName": "Jev Thread Search"
+  },
+  "plugins": [
+    {
+      "name": "jev-thread-search",
+      "source": {
+        "source": "local",
+        "path": "./plugins/jev-thread-search"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "jev-thread-search",
+  "version": "1.0.0",
+  "description": "Search local Codex conversation history by describing what you remember.",
+  "author": {
+    "name": "Rishi Venkat",
+    "url": "https://github.com/rishiv7"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Jev Thread Search",
+    "shortDescription": "Find a past Codex conversation from what you remember.",
+    "longDescription": "Search local Codex conversation metadata and selected excerpts, then rank likely matches with TypeSafe Jev. Requires a TypeSafe API key configured locally.",
+    "developerName": "Rishi Venkat",
+    "category": "Productivity",
+    "capabilities": [
+      "Search local Codex conversation history"
+    ],
+    "defaultPrompt": [
+      "Find my Codex thread about export support."
+    ]
+  },
+  "homepage": "https://github.com/rishiv7/jev-thread-search",
+  "repository": "https://github.com/rishiv7/jev-thread-search",
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "conversation search",
+    "threads"
+  ]
+}

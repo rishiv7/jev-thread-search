@@ -10,7 +10,7 @@ from urllib.error import HTTPError
 from urllib.error import URLError
 
 
-MODULE = Path(__file__).resolve().parents[1] / "scripts" / "jev_ranker.py"
+MODULE = Path(__file__).resolve().parents[1] / "plugins" / "jev-thread-search" / "skills" / "jev-thread-search" / "scripts" / "jev_ranker.py"
 sys.path.insert(0, str(MODULE.parent))
 import jev_ranker as ranker
 

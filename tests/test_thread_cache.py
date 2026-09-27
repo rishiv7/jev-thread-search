@@ -7,7 +7,7 @@ import tempfile
 import unittest
 from datetime import datetime, timezone
 
-MODULE = Path(__file__).resolve().parents[1] / 'scripts' / 'thread_cache.py'
+MODULE = Path(__file__).resolve().parents[1] / 'plugins' / 'jev-thread-search' / 'skills' / 'jev-thread-search' / 'scripts' / 'thread_cache.py'
 spec = importlib.util.spec_from_file_location('thread_cache', MODULE)
 cache = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(cache)
